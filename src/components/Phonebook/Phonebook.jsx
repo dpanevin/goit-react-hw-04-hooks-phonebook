@@ -16,7 +16,6 @@ export function Phonebook() {
     if (localContactsList) {
       setContacts(localContactsList);
     }
-    console.log('sfsfsdff');
   }, []);
   //componentdidupdate
   useEffect(() => {
